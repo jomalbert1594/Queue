@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueingApi", "QueueingApi\QueueingApi.csproj", "{4C60A0E2-2AB5-49A1-8336-B29E2ECBCAC7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1E2D436-3B04-4824-9CA6-DBE99384EA38} = {D1E2D436-3B04-4824-9CA6-DBE99384EA38}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueDataAccess", "..\QueueDataAccess\QueueDataAccess\QueueDataAccess.csproj", "{D1E2D436-3B04-4824-9CA6-DBE99384EA38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C60A0E2-2AB5-49A1-8336-B29E2ECBCAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C60A0E2-2AB5-49A1-8336-B29E2ECBCAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C60A0E2-2AB5-49A1-8336-B29E2ECBCAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C60A0E2-2AB5-49A1-8336-B29E2ECBCAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E2D436-3B04-4824-9CA6-DBE99384EA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E2D436-3B04-4824-9CA6-DBE99384EA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E2D436-3B04-4824-9CA6-DBE99384EA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E2D436-3B04-4824-9CA6-DBE99384EA38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDB5EE3E-A35E-4449-8B97-A85D322468C7}
+	EndGlobalSection
+EndGlobal

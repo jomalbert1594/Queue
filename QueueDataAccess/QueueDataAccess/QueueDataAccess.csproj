@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190603094147_AddedCounterType.cs" />
+    <Compile Remove="Migrations\20190621060402_AddedTransNode.cs" />
+    <Compile Remove="Migrations\20190622070235_PseudoForeignKeyTransIdCounter.cs" />
+    <Compile Remove="Migrations\20190622070451_PsuedoForeignKeyTransIdCounter2.cs" />
+    <Compile Remove="Migrations\20190622070520_PsuedoForeignKeyTransIdCounter2.cs" />
+    <Compile Remove="Migrations\20190623103015_AddedTransControls.cs" />
+    <Compile Remove="Migrations\20190623114821_AddedTransControl.cs" />
+    <Compile Remove="Migrations\20190623121725_AddedTransControl.cs" />
+    <Compile Remove="Migrations\20190623122256_AddedTransControl.cs" />
+    <Compile Remove="Migrations\20190717085418_TimeStampAttrib.cs" />
+    <Compile Remove="Migrations\20190717085418_TimeStampAttrib.Designer.cs" />
+    <Compile Remove="Migrations\20190717090243_AddedTimeStamoAttrib.cs" />
+    <Compile Remove="Migrations\20190717090243_AddedTimeStamoAttrib.Designer.cs" />
+    <Compile Remove="Migrations\20190717091114_AddedTimeStampAttrib.cs" />
+    <Compile Remove="Migrations\20190717091114_AddedTimeStampAttrib.Designer.cs" />
+    <Compile Remove="Migrations\20190717091808_AddedRowVersion2.cs" />
+    <Compile Remove="Migrations\20190717091808_AddedRowVersion2.Designer.cs" />
+    <Compile Remove="Migrations\20190717092307_AddedTimeStamp.cs" />
+    <Compile Remove="Migrations\20190717092307_AddedTimeStamp.Designer.cs" />
+    <Compile Remove="Migrations\20190717092812_AddedTimeStampRowVersion.cs" />
+    <Compile Remove="Migrations\20190717092812_AddedTimeStampRowVersion.Designer.cs" />
+    <Compile Remove="Migrations\20190717093338_AddedTimestampRowVersion.cs" />
+    <Compile Remove="Migrations\20190717093338_AddedTimestampRowVersion.Designer.cs" />
+    <Compile Remove="Migrations\20190717093852_RemovedRedundantRowVersion2Column.cs" />
+    <Compile Remove="Migrations\20190717093852_RemovedRedundantRowVersion2Column.Designer.cs" />
+    <Compile Remove="Migrations\20190717094654_RemovedRedundantRowVersion.cs" />
+    <Compile Remove="Migrations\20190717094654_RemovedRedundantRowVersion.Designer.cs" />
+    <Compile Remove="Migrations\20190717094852_RemovedRedundantRowVersion.cs" />
+    <Compile Remove="Migrations\20190717094852_RemovedRedundantRowVersion.Designer.cs" />
+    <Compile Remove="Migrations\20190717100039_NewRowVersion.cs" />
+    <Compile Remove="Migrations\20190717100039_NewRowVersion.Designer.cs" />
+    <Compile Remove="Migrations\20190717100552_Initial.cs" />
+    <Compile Remove="Migrations\20190717100552_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
